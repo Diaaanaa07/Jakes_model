@@ -10,8 +10,6 @@ function [h,tf]=Jakes_Flat(fd,Ts,Ns,t0,E0,phi_N)
 %   h       : complex fading vector
 %   t_state: current time
 
-%MIMO-OFDM Wireless Communications with MATLAB㈢   Yong Soo Cho, Jaekwon Kim, Won Young Yang and Chung G. Kang
-%?2010 John Wiley & Sons (Asia) Pte Ltd
 
 if nargin<6,  phi_N=0;    end
 if nargin<5,  E0=1;       end
